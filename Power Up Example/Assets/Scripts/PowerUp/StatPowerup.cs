@@ -2,9 +2,9 @@ using System;
 using UnityEngine;
 namespace CaptainCoder.PowerUpExample
 {
-    public abstract class SingleStatPowerup<T> : IPowerup
+    public abstract class StatPowerup<T> : IPowerup
     {
-        public SingleStatPowerup(int bonus) => Bonus = bonus;
+        public StatPowerup(int bonus) => Bonus = bonus;
         public int Bonus { get; set; }
         public bool TryCollect(GameObject character)
         {

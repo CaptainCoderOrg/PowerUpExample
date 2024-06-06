@@ -1,7 +1,7 @@
 using UnityEngine;
 namespace CaptainCoder.PowerUpExample
 {
-    public class ManaPowerup : SingleStatPowerup<ManaComponent>
+    public class ManaPowerup : StatPowerup<ManaComponent>
     {
         public ManaPowerup(int bonus) : base(bonus) { } 
 

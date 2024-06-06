@@ -4,7 +4,7 @@ using UnityEngine;
 namespace CaptainCoder.PowerUpExample
 {
     [CreateAssetMenu(fileName = "Powerup", menuName = "Powerup Example")]
-    public class PowerUp : ScriptableObject, IPowerup
+    public class ScriptablePowerup : ScriptableObject, IPowerup
     {
         public PowerUpEntry[] Bonuses;
         public bool TryCollect(GameObject character)

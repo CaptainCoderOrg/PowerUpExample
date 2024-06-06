@@ -3,7 +3,7 @@ namespace CaptainCoder.PowerUpExample
 {
     public class WorldItem : MonoBehaviour
     {
-        public PowerUp PowerUp;
+        public ScriptablePowerup PowerUp;
         public void OnTriggerEnter2D(Collider2D other)
         {
             // If the powerup was collected, destroy it
